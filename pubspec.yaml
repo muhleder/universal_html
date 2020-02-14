@@ -15,7 +15,10 @@ dependencies:
   html: ^0.14.0
   meta: ^1.1.0
   typed_data: ^1.1.0
-  universal_io: ^0.8.5
+  universal_io:
+    git:
+      url: https://github.com/dint-dev/universal_io
+      path: packages/universal_io
   xml: ^3.5.0
   zone_local: ^0.1.0
 
